@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_principal">
+    <LinearLayout
+        android:id="@+id/cabecera_principal_land"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo_principal"
+            android:background="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/alt_imagen"/>
+
+        <com.farfly.MiTextView
+            android:id="@+id/cabecera_principal"
+            android:text="@string/cabecera_principal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+           style="@style/estilo_titulo"/>
+        <ImageButton
+            android:id="@+id/btnOpciones"
+            android:src="@drawable/btn_opciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/alt_imagen"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/titulo"
+        android:src="@drawable/farfly_land"
+        android:contentDescription="@string/alt_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cabecera_principal_land"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp">
+
+        <com.farfly.MiButton
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMapas"
+            android:text="@string/btnMapas"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+
+
+        <com.farfly.MiButton
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnListaLugares"
+            android:text="@string/btnListaLugares"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

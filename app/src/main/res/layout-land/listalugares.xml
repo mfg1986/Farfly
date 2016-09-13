@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_lista">
+
+    <LinearLayout
+        android:id="@+id/layout_cabecera"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/logo_editar"
+            android:background="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/alt_imagen"/>
+
+        <com.farfly.MiTextView
+            android:id="@+id/cabecera"
+            android:text="@string/cabecera_lista_lugares"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            style="@style/estilo_titulo"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_below="@id/layout_cabecera"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0"
+        android:layout_marginLeft="5dp"><!--0.5-->
+
+        <com.farfly.MiTextView
+            android:id="@+id/filtro"
+            android:text="@string/filtro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/estilo_titulo"/>
+
+        <Spinner
+            android:id="@+id/spinner_personalizado"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <com.farfly.MiTextView
+                android:id="@+id/cabecera_lista"
+                android:text="@string/cabecera_lista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/estilo_titulo"/>
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner"/>
+            <com.farfly.MiTextView
+                android:id="@android:id/empty"
+                android:text="@string/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fondo_textos"
+                style="@style/estilo_texto"/>
+        </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

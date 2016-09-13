@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Nombre de la App-->
+    <string name="app_name">FarFly</string>
+    <!--Nombres de las actividades-->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_principal">FarFly</string>
+    <string name="title_activity_editar">Edit Place</string>
+    <string name="title_activity_mostrar">Show Place</string>
+    <string name="title_activity_lista">List of Places</string>
+
+    <!--Botones PrincipalActivity-->
+    <string name="btnMapas">Maps</string>
+    <string name="btnListaLugares">List of Places</string>
+
+    <!--Botones EditarActivity-->
+    <string name="btnGuardar">Save</string>
+    <string name="btnCrear">Create</string>
+    <string name="btnEliminar">Delete</string>
+
+    <!--Botones MostrarActivity-->
+    <string name="btnEditar">Edit</string>
+
+    <!--Botones aceptar y cancelar de los avisos-->
+    <string name="aceptar">Accept</string>
+    <string name="aviso_cancelar">Cancel</string>
+
+
+    <!--Texto Aviso eliminar lugar-->
+    <string name="texto_aviso_eliminar">This place will be deleted. Do you want to continue?</string>
+    <string name="titulo_aviso_eliminar">Delete place</string>
+    <string name="error_eliminar_lugar">Failed to delete place.</string>
+
+    <!--Texto Aviso eliminar lugares-->
+    <string name="texto_aviso_eliminar_lugares">All saved places will be deleted. Do you want to continue?</string>
+    <string name="titulo_aviso_eliminar_lugares">Delete Places</string>
+    <string name="error_eliminar_lugares">Failed to delete places.</string>
+    <string name="no_hay_lugares">There are not places saved.</string>
+
+
+    <!--Toast al eliminar lugares -->
+    <string name="lugar_eliminado">Place deleted</string>
+    <string name="lugares_eliminados">Places deleted</string>
+
+
+    <!--Texto Aviso datos incompletos-->
+    <string name="texto_datos_incompletos">Do you want to continue without fill in all fields?</string>
+    <string name="titulo_datos_incompletos">Fields empties</string>
+
+    <!--Texto Aviso falta categoria-->
+    <string name="texto_introducir_categoria">You must select a category</string>
+    <string name="titulo_introducir_categoria">Warning</string>
+
+
+    <!--Texto Aviso GPS desactivado-->
+    <string name="texto_aviso_gps">No options of location  enabled. Do you want to go to settings menu?</string>
+    <string name="titulo_aviso_gps">Location settings</string>
+    <string name="buscando_ubicacion">Determining the current position   .    .    .</string>
+    <string name="error_ubicacion">Could not get the position. Try again later.</string>
+
+    <!--Texto Aviso Sin Red Internet-->
+    <string name="texto_sin_internet">You need an Internet connection to load the maps. To view saved  places without internet connection go to " List of places ".</string>
+    <string name="titulo_sin_internet">No Networking</string>
+
+    <!--Texto Asistente crear lugar-->
+    <string name="texto_asistente_crear1">Option 1:Click on the map point where you want to create a new place. </string>
+    <string name="texto_asistente_crear2">Option 2: Click on the + icon on the top-right corner of the screen to create a place with your current coordinates.</string>
+    <string name="titulo_asistente_crear">Create place from map</string>
+
+    <!--Texto Asistente mostrar lugar desde el mapa-->
+    <string name="texto_asistente_mostrar_mapa">To see a specific place click on the corresponding icon in the map.</string>
+    <string name="titulo_asistente_mostrar_mapa">Show places from map</string>
+
+    <!--Texto Asistente editar lugar -->
+    <string name="texto_asistente_editar1">Here you can edit the details of the place such as name, type of place, photo, assessment or description.</string>
+    <string name="texto_asistente_editar2">To save the changes press the button "Save" at the bottom of the place information.</string>
+    <string name="texto_asistente_editar3">If, instead of this, you want to delete a place, you  only have to press in the "Delete" button, that it is to the right of the "Save" button.</string>
+    <string name="titulo_asistente_editar">Create/Edit place </string>
+
+    <!--Texto Asistente mostrar lugar  mapa-->
+    <string name="texto_asistente_mostrar">Here you can see all the details of the saved location and edit them if desired. To do this click on the "Edit" button at the bottom of the place information.</string>
+    <string name="titulo_asistente_mostrar">Show place</string>
+
+    <!--Texto Asistente eliminar lugares-->
+    <string name="texto_asistente_eliminar1">Option 1: To delete a specific place click on the corresponding icon in the map, this will show you the place. After that click "Edit" and you can delete it by pressing "Delete".</string>
+    <string name="texto_asistente_eliminar2">Option 2: To delete all saved places press the x icon in the top-right corner of the screen.</string>
+    <string name="titulo_asistente_eliminar">Delete places from map</string>
+
+    <!--Texto Asistente listar lugares-->
+    <string name="texto_asistente_listar1">Your saved locations are shown in the list. To view the details of a particular place only click on the tab shown in the list.</string>
+    <string name="texto_asistente_listar2">To facilitate the search of places, you have a filter by category.  In the filter you select the type of place to search and the list  will show the found places. </string>
+    <string name="titulo_asistente_listar">List of places</string>
+
+
+    <!--Cabeceras de las Actividades-->
+    <string name="cabecera_principal">FarFly : Home</string>
+    <string name="cabecera_mapa_lugares">FarFly : Map</string>
+    <string name="cabecera_mostrar_lugares">FarFly : Show Place</string>
+    <string name="cabecera_editar_lugares">FarFly : Edit Place</string>
+    <string name="cabecera_crear_lugares">FarFly : Create Place</string>
+    <string name="cabecera_lista_lugares">FarFly : List of Places</string>
+
+    <!--Textos de EditarActivity, MostrarActivity y ListActivity-->
+    <string name="alt_imagen">It is an image</string>
+    <string name="latitud">Latitude:</string>
+    <string name="longitud">Longitude:</string>
+    <string name="nombre">Name:</string>
+    <string name="tipo">Type:</string>
+    <string name="valoracion">Assessment:</string>
+    <string name="descripcion">Description:</string>
+    <string name="error_guardar">Error to save the changes of the place</string>
+    <string name="error_cargar">Error to load place</string>
+
+    <!--Textos de ListActivity-->
+    <string name="filtro">Filter:</string>
+    <string name="cabecera_lista">Places found : </string>
+    <string name="empty">There are not places saved. Please insert place in the map.</string>
+    <string name="no_lugar">We are sorry. Places not found.</string>
+
+    <!--Opciones del Spinner-->
+    <string name="seleccione">Select Category . . .</string>
+    <string name="todos">All</string>
+    <string name="aeropuerto">Airport</string>
+    <string name="pub">Pub</string>
+    <string name="cafeteria">Coffee Shop</string>
+    <string name="cajero">Cashier</string>
+    <string name="comida_rapida">Fast Food</string>
+    <string name="discoteca">Discotheque</string>
+    <string name="tren">Train Station</string>
+    <string name="gimnasio">Gym</string>
+    <string name="hospital">Hospital</string>
+    <string name="hotel">Hotel</string>
+    <string name="monumento">Monument</string>
+    <string name="otro">Other</string>
+    <string name="parque">Park</string>
+    <string name="piscina">Swimming Pool</string>
+    <string name="playa">Beach</string>
+    <string name="puerto">Port</string>
+    <string name="restaurante">Restaurant</string>
+    <string name="supermercado">Supermarket</string>
+    <string name="taxi">Taxi</string>
+    <string name="tienda">Shop</string>
+    <string name="otra_categoria">Select an other category in the filter.</string>
+
+    <!--Menu de Foto-->
+    <string name="añadir_foto">Add Photo</string>
+    <string name="camera">Go to Camera</string>
+    <string name="galeria">Go to Gallery</string>
+    <string name="proveedor_fotografia">Select the Image Provider</string>
+
+    <!--Menu de Opciones-->
+    <string name="opciones">Options</string>
+    <string name="opcion_acerca_app">App Information</string>
+    <string name="opcion_acerca_desarrollador">Contact</string>
+    <string name="asistente">Show Wizard</string>
+    <string name="ajustes">Language</string>
+
+    <!--Opcion Acerca de la App-->
+    <string name="nombre_aplicacion">App Name:</string>
+    <string name="min_version">Minimum version: </string>
+    <string name="fecha">Date of publication:</string>
+    <string name="idioma">Languages availables: </string>
+    <string name="texto_idioma">English and Spanish.</string>
+
+    <!--Opcion Contacto-->
+    <string name="nombre_desarrollador">Developer: </string>
+    <string name="titulacion">Certification: </string>
+    <string name="texto_titulacion">Ing. Telecomunications</string>
+    <string name="correo">Email: </string>
+
+
+    <!--Opcion de Idioma-->
+    <string name="aviso">Warning</string>
+    <string name="opcion_seleccione_idioma">Select Language</string>
+    <string name="español">Spanish</string>
+    <string name="ingles">English</string>
+
+    <!--Toast y aviso al cambiar el idioma-->
+    <string name="cambiar_idioma">The text fields set by the user will not be translated. Remember you can edit them.</string>
+    <string name="cambio_idioma_ok_es">Idioma cambiado correctamente</string>
+    <string name="cambio_idioma_ok_en">Language changed successfully</string>
+    <string name="idioma_configurado_ok_en">Language set successfully</string>
+    <string name="idioma_configurado_ok_es">Idioma configurado correctamente</string>
+    <string name="nuevos_lugares"> To enter new places go to the Maps option</string>
+
+    <!--Aviso boton de atras para salir-->
+    <string name="salir">Exit of FarFly</string>
+    <string name="texto_salir">You are going out of FarFly. Do you want to continue?</string>
+
+
+    <string name="lugar_no_existe">The place with these coordinates does not exist</string>
+    <string name="error_insert">Error to insert a new register</string>
+
+
+</resources>

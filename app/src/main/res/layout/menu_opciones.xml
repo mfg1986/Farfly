@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu_opciones"
+    android:background="@color/blanco"><!-- android:background="@drawable/fondo_textos">-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_launcher"
+                android:contentDescription="@string/alt_imagen"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@color/azul2"
+                android:paddingLeft="30dp" />
+            <com.farfly.MiTextView
+                android:id="@+id/aviso"
+                android:text="@string/opciones"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azul2"
+                android:paddingLeft="30dp"
+                android:paddingTop="5dp"
+                style="@style/estilo_titulo"
+
+                />
+        </LinearLayout>
+    <com.farfly.MiButton
+            android:id="@+id/btn_acerca_app"
+            android:text="@string/opcion_acerca_app"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            style="@style/button_menu"/>
+    <com.farfly.MiButton
+        android:id="@+id/btn_acerca_des"
+        android:text="@string/opcion_acerca_desarrollador"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        style="@style/button_menu"/>
+    <com.farfly.MiButton
+        android:id="@+id/btn_asistente"
+        android:text="@string/asistente"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        style="@style/button_menu"/>
+    <com.farfly.MiButton
+        android:id="@+id/btn_ajustes"
+        android:text="@string/ajustes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        style="@style/button_menu"/>
+
+    </LinearLayout>
+
+

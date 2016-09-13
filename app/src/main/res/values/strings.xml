@@ -1,0 +1,197 @@
+<resources>
+    <!--Nombre de la App-->
+        <string name="app_name">FarFly</string>
+
+        <string name="title_activity_maps">Mapa</string>
+        <string name="title_activity_principal">FarFly</string>
+        <string name="title_activity_editar">Editar Lugar</string>
+        <string name="title_activity_mostrar">Mostrar Lugar</string>
+        <string name="title_activity_lista">Lista de Lugares</string>
+    <!--Botones PrincipalActivity-->
+        <string name="btnMapas">Mapas</string>
+        <string name="btnListaLugares">Lista de Lugares</string>
+
+    <!--Botones EditarActivity-->
+        <string name="btnGuardar">Guardar</string>
+        <string name="btnCrear">Crear</string>
+        <string name="btnEliminar">Eliminar</string>
+
+    <!--Botones MostrarActivity-->
+         <string name="btnEditar">Editar</string>
+
+    <!--Botones aceptar y cancelar de los avisos-->
+        <string name="aceptar">Aceptar</string>
+        <string name="aviso_cancelar">Cancelar</string>
+
+    <!--Texto Aviso eliminar lugar-->
+        <string name="texto_aviso_eliminar">Este lugar será eliminado. ¿Desea continuar?</string>
+        <string name="titulo_aviso_eliminar">Eliminar Lugar</string>
+        <string name="error_eliminar_lugar">Error al eliminar el lugar</string>
+
+    <!--Texto Aviso eliminar lugares-->
+    <string name="texto_aviso_eliminar_lugares">Todos los lugares guardados serán eliminados. ¿Desea continuar?</string>
+    <string name="titulo_aviso_eliminar_lugares">Eliminar Lugares</string>
+    <string name="error_eliminar_lugares">Error al eliminar los lugares</string>
+    <string name="no_hay_lugares">No hay lugares guardados</string>
+
+
+    <!--Toast al eliminar lugares -->
+    <string name="lugar_eliminado">Lugar borrado</string>
+    <string name="lugares_eliminados">Lugares borrados</string>
+
+    <!--Texto Aviso datos incompletos-->
+        <string name="texto_datos_incompletos">¿Desea continuar sin rellenar todos los campos?</string>
+        <string name="titulo_datos_incompletos">Campos sin rellenar</string>
+
+    <!--Texto Aviso falta categoria-->
+        <string name="texto_introducir_categoria">Debe introducir una categoría</string>
+        <string name="titulo_introducir_categoria">Aviso</string>
+
+
+
+    <!--Texto Aviso GPS desactivado-->
+    <string name="texto_aviso_gps">Opciones de ubicación desactivadas. ¿Desea ir al menu de ajustes para activarlo?</string>
+    <string name="titulo_aviso_gps">Ajustes de Ubicación</string>
+    <string name="buscando_ubicacion">Determinando posición actual   .    .    . </string>
+    <string name="error_ubicacion">No se pudo obtener la posición. Inténtelo más tarde.</string>
+
+    <!--Texto Aviso Sin Red Internet-->
+    <string name="texto_sin_internet">Es necesario tener conexión a Internet para cargar los mapas. Si desea visualizar los lugares guardados sin conexión de red vaya a Listar lugares.</string>
+    <string name="titulo_sin_internet">Sin Conexión de Red</string>
+
+    <!--Texto Asistente crear lugar-->
+    <string name="texto_asistente_crear1">Opcion 1: Presiona el punto del mapa donde quieras crear el lugar. </string>
+    <string name="texto_asistente_crear2">Opcion 2: Presiona el icono + en la esquina superior derecha para crear un lugar con tus coordenadas actuales.</string>
+    <string name="titulo_asistente_crear">Crear lugares desde mapa </string>
+    <!--Texto Asistente mostrar lugar desde el mapa-->
+    <string name="texto_asistente_mostrar_mapa">Para ver un lugar concreto pulse en su icono dentro del mapa.</string>
+    <string name="titulo_asistente_mostrar_mapa">Mostrar lugares desde mapa</string>
+
+    <!--Texto Asistente mostrar lugar  mapa-->
+    <string name="texto_asistente_mostrar">Aqui puede ver todos los detalles del lugar guardado y si lo desea editarlos. Para ello pulse en el botón "Editar" al final de la ficha.</string>
+    <string name="titulo_asistente_mostrar">Mostrar lugar </string>
+
+    <!--Texto Asistente editar lugar -->
+    <string name="texto_asistente_editar1">Aqui podrá editar los detalles del lugar tales como su nombre, el tipo de lugar, la foto, la valoración o la descripción del mismo.</string>
+    <string name="texto_asistente_editar2">Para guardar los cambios efectuados pulse en el botón de "Guardar" al final de la ficha.</string>
+    <string name="texto_asistente_editar3">Si por el contrario desea eliminar el lugar unicamente tendrá que presionar el botón "Eliminar", que esta a la derecha del botón "Guardar".</string>
+    <string name="titulo_asistente_editar">Crear/Editar lugar </string>
+
+    <!--Texto Asistente eliminar lugares-->
+    <string name="texto_asistente_eliminar1">Opcion 1: Si desea eliminar un lugar concreto pulse en su icono correspondiente dentro del mapa, esto le mostrará el lugar. Tras ello pulse en "Editar" y podrá eliminarlo pulsando "Eliminar".</string>
+    <string name="texto_asistente_eliminar2">Opcion 2: Para eliminar todos los lugares guardados presione el icono de la x en la esquina superior derecha de la pantalla.</string>
+    <string name="titulo_asistente_eliminar">Eliminar lugares desde mapa </string>
+
+    <!--Texto Asistente listar lugares-->
+    <string name="texto_asistente_listar1">Los lugares guardados se mostrarán en la lista. Si desea ver los detalles de un lugar en concreto unicamente presione sobre la ficha mostrada en dicha lista.</string>
+    <string name="texto_asistente_listar2">Para facilitar su búsqueda dispone de un filtro por categoría. Seleccione en el filtro el tipo de lugar a buscar y en la lista aparecerán los lugares correspondientes a dicho tipo.</string>
+    <string name="titulo_asistente_listar">Lista lugares </string>
+
+
+
+
+    <!--Cabeceras de las Actividades-->
+        <string name="cabecera_principal">FarFly : Inicio</string>
+        <string name="cabecera_lista_lugares">FarFly : Lista Lugares</string>
+        <string name="cabecera_mapa_lugares">FarFly : Mapa</string>
+        <string name="cabecera_mostrar_lugares">FarFly : Mostrar Lugar</string>
+        <string name="cabecera_editar_lugares">FarFly : Editar Lugar</string>
+        <string name="cabecera_crear_lugares">FarFly : Crear Lugar</string>
+
+    <!--Textos de EditarActivity, MostrarActivity y ListActivity-->
+        <string name="alt_imagen">Esto es una imagen</string>
+        <string name="latitud">Latitud:</string>
+        <string name="longitud">Longitud:</string>
+        <string name="nombre">Nombre:</string>
+        <string name="tipo">Tipo:</string>
+        <string name="valoracion">Valoración:</string>
+        <string name="descripcion">Descripcion:</string>
+        <string name="error_guardar">Error al guardar los cambios en el lugar</string>
+        <string name="error_cargar">Error al cargar el lugar</string>
+
+
+    <!--Textos de ListActivity-->
+        <string name="filtro">Filtro:</string>
+        <string name="cabecera_lista">Lugares encontrados: </string>
+        <string name="empty">No hay lugares guardados. Por favor inserte lugares en Mapa</string>
+        <string name="no_lugar">Lo sentimos. No se encontraron lugares.</string>
+
+    <!--Opciones del Spinner-->
+        <string name="seleccione">Seleccione Categoría . . .</string>
+        <string name="todos">Todos</string>
+        <string name="aeropuerto">Aeropuerto</string>
+        <string name="pub">Bar de Copas</string>
+        <string name="cafeteria">Cafetería</string>
+        <string name="cajero">Cajero</string>
+        <string name="comida_rapida">Comida Rápida</string>
+        <string name="discoteca">Discoteca</string>
+        <string name="tren">Estación de Tren</string>
+        <string name="gimnasio">Gimnasio</string>
+        <string name="hospital">Hospital</string>
+        <string name="hotel">Hotel</string>
+        <string name="monumento">Monumento</string>
+        <string name="otro">Otro</string>
+        <string name="parque">Parque</string>
+        <string name="piscina">Piscina</string>
+        <string name="playa">Playa</string>
+        <string name="puerto">Puerto</string>
+        <string name="restaurante">Restaurante</string>
+        <string name="supermercado">Supermercado</string>
+        <string name="taxi">Taxi</string>
+        <string name="tienda">Tienda</string>
+        <string name="otra_categoria">Selecciona otra categoria en el filtro.</string>
+
+    <!--Menu de Foto-->
+        <string name="añadir_foto">Añadir Fotografía</string>
+        <string name="camera">Ir a Cámara de Fotos</string>
+        <string name="galeria">Ir a Galeria</string>
+        <string name="proveedor_fotografia">Seleccione el Proveedor de Imagen</string>
+
+    <!--Menu de Opciones-->
+        <string name="opciones">Opciones</string>
+        <string name="opcion_acerca_app">Acerca de la App</string>
+        <string name="opcion_acerca_desarrollador">Contacto</string>
+        <string name="asistente">Mostrar asistente</string>
+        <string name="ajustes">Idioma</string>
+
+    <!--Opcion Acerca de la App-->
+        <string name="nombre_aplicacion">Nombre App:</string>
+        <string name="texto_nombre_aplicacion"> FarFly</string>
+        <string name="min_version">Minima versión: </string>
+        <string name="texto_min_version">Android 2.2</string>
+        <string name="fecha">Fecha de publicación:</string>
+        <string name="texto_fecha">16/07/2015</string>
+        <string name="idioma">Idiomas disponibles: </string>
+
+    <!--Opcion Contacto-->
+        <string name="nombre_desarrollador">Desarrollador: </string>
+        <string name="texto_nombre_desarrollador">María García Luque</string>
+        <string name="titulacion">Titulación: </string>
+        <string name="texto_titulacion">Ing. Telecomunicaciones</string>
+        <string name="correo">Correo: </string>
+        <string name="texto_correo">farfly@gmail.com</string>
+
+    <!--Opcion de Idioma-->
+        <string name="aviso">Aviso</string>
+        <string name="opcion_seleccione_idioma">Seleccione idioma</string>
+        <string name="español">Español</string>
+        <string name="ingles">Inglés</string>
+
+    <!--Toast y aviso al cambiar el idioma-->
+        <string name="cambiar_idioma">Los campos de texto introducidos por el usuario no serán traducidos. Recuerde que puede editarlos.</string>
+        <string name="cambio_idioma_ok_es">Idioma cambiado correctamente</string>
+        <string name="cambio_idioma_ok_en">Language changed successfully</string>
+        <string name="idioma_configurado_ok_es">Idioma configurado correctamente</string>
+        <string name="idioma_configurado_ok_en">Language set successfully</string>
+        <string name="nuevos_lugares">Para introducir lugares nuevos vaya a la opción de Mapas</string>
+
+    <!--Aviso boton de atras para salir-->
+        <string name="salir">Salir de FarFly</string>
+        <string name="texto_salir">Va a salir de FarFly.¿Desea continuar?</string>
+
+
+    <string name="lugar_no_existe">El lugar con las coordenadas indicadas no existe</string>
+    <string name="error_insert">Error al introducir el registro</string>
+
+</resources>
+

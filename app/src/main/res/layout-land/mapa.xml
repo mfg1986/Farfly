@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MapsActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logo_editar"
+                android:background="@drawable/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/alt_imagen"/>
+
+            <com.farfly.MiTextView
+                android:id="@+id/cabecera_mapa_lugar"
+                android:text="@string/cabecera_mapa_lugares"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                style="@style/estilo_titulo"/>
+            <ImageButton
+                android:id="@+id/btn_eliminar_lugares"
+                android:src="@drawable/btn_estados_eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/alt_imagen"/>
+
+            <ImageButton
+                android:id="@+id/btn_crear_lugar"
+                android:src="@drawable/btn_estados_crear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/alt_imagen"/>
+        </LinearLayout>
+    </fragment>
+</LinearLayout>

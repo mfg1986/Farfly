@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asistente_listar_lugares">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondo_textos">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:src="@drawable/ic_launcher"
+                    android:contentDescription="@string/alt_imagen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:background="@color/azul2"/>
+                <com.farfly.MiTextView
+                    android:id="@+id/titulo_asistente_listar"
+                    android:text="@string/titulo_asistente_listar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/azul2"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    style="@style/estilo_titulo"
+                    />
+            </LinearLayout>
+            <com.farfly.MiTextView
+                android:id="@+id/texto_asistente_listar1"
+                android:text="@string/texto_asistente_listar1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:paddingLeft="2dp"
+                style="@style/estilo_texto"/>
+
+            <com.farfly.MiTextView
+                android:id="@+id/texto_asistente_listar2"
+                android:text="@string/texto_asistente_listar2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:paddingLeft="2dp"
+                style="@style/estilo_texto"/>
+
+            <com.farfly.MiButton
+                android:text="@string/aceptar"
+                android:id="@+id/btn_asistente_listar_lugares"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/button_aviso"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

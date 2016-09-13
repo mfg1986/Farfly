@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rojo">#ff0000</color>
+    <color name="verde">#FF6AFF43</color>
+    <color name="azul3">#FF2816CE</color>
+    <color name="azul">#ff008ca4</color>
+    <color name="azul2">#FF42C2CE</color>
+    <color name="azul4">#FFA1CECE</color>
+    <color name="azul5">#ff0165ce</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="amarillo">#FFFFF854</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#8A080812</color>
+    <color name="transparente">@android:color/transparent</color>
+</resources>

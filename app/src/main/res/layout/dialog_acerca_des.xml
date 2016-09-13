@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/azul2">
+        <ImageView
+            android:id="@+id/logo_editar"
+            android:background="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/alt_imagen"/>
+
+        <com.farfly.MiTextView
+            android:id="@+id/cabecera_mostrar_lugar"
+            android:text="@string/opcion_acerca_desarrollador"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            style="@style/estilo_titulo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.farfly.MiTextView
+                android:id="@+id/nombre_desarrollador"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/nombre_desarrollador"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_titulo_opciones"
+                android:layout_weight="1"/>
+            <com.farfly.MiTextView
+                android:id="@+id/texto_nombre_desarrollador"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/texto_nombre_desarrollador"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_texto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.farfly.MiTextView
+                android:id="@+id/titulacion"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/titulacion"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_titulo_opciones"
+                android:layout_weight="1"/>
+            <com.farfly.MiTextView
+                android:id="@+id/texto_titulacion"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/texto_titulacion"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_texto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.farfly.MiTextView
+                android:id="@+id/correo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/correo"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_titulo_opciones"
+                android:layout_weight="1"/>
+            <com.farfly.MiTextView
+                android:id="@+id/texto_correo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/texto_correo"
+                android:layout_marginTop="10dp"
+                style="@style/estilo_texto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

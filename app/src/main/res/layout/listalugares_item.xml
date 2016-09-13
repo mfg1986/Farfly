@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/listalugares_item">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/idLogo"
+            android:contentDescription="@string/alt_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/vacio"
+            android:adjustViewBounds="true"/><!-- android:layout_weight="0.25">-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            ><!--0.75android:layout_weight="0.75"-->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.farfly.MiTextView
+                    android:id="@+id/til_nombre"
+                    android:text="@string/nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    style="@style/estilo_titulo_texto"/>
+
+                <com.farfly.MiTextView
+                    android:id="@+id/idNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="10dp"
+                    style="@style/estilo_texto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp">
+            <com.farfly.MiTextView
+                android:id="@+id/til_valoracion"
+                android:text="@string/valoracion"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="2dp"
+                style="@style/estilo_titulo_texto"/>
+
+                <RatingBar android:id="@+id/ratingbar_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:stepSize="1.0"
+                    android:layout_gravity="center_horizontal"
+                    android:isIndicator="true"
+                    style="@style/RatingBarSmall"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

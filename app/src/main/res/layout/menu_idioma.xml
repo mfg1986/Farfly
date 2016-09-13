@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu_idioma"
+    android:background="@color/blanco">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/alt_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@color/azul2"
+            android:paddingLeft="10dp"/>
+        <com.farfly.MiTextView
+            android:id="@+id/aviso"
+            android:text="@string/opcion_seleccione_idioma"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/azul2"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            style="@style/estilo_titulo"
+            />
+    </LinearLayout>
+    <com.farfly.MiButton
+        android:id="@+id/btn_español"
+        android:text="@string/español"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        style="@style/button_menu"/>
+    <com.farfly.MiButton
+        android:id="@+id/btn_ingles"
+        android:text="@string/ingles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        style="@style/button_menu"/>
+
+
+</LinearLayout>
